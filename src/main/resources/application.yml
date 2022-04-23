@@ -8,12 +8,6 @@ spring:
     username: root
     password: root
 
-#spring:
-#  application:
-#    name: user-center-backend
-#  # DataSource Config
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://localhost:3306/yupi
-#    username: root
-#    password: 123456
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false

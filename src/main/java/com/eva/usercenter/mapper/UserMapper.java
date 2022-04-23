@@ -1,8 +1,15 @@
 package com.eva.usercenter.mapper;
 
+import com.eva.usercenter.model.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.eva.usercenter.model.User;
 
+/**
+ * @Entity com.eva.usercenter.model.domain.User
+ */
 public interface UserMapper extends BaseMapper<User> {
 
 }
+
+
+
+
